@@ -1,0 +1,108 @@
+body{
+	margin:0px;
+	color:white;
+	background-image: url('image/wallpaper/pic3.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.login{
+	background-color: rgba(0,0,0,0.7);
+	width:100%;
+	margin-top:5px;
+}
+
+.contain{
+	width:95%;
+	margin:auto;
+}	 
+.logintext{
+	padding:10px 0;
+	width:30%;
+	float:left;
+}
+
+.logintext h3:hover{
+	color:gray;
+}
+
+.login-area{
+	width:70%;
+	overflow:hidden;	
+}
+.username-area:hover{
+	color:gray;
+}
+
+.login-area form{
+	float:right;
+}
+
+.login-area label,
+.login-area input{
+	display:block;
+}	
+
+.login-area input[type="checkbox"]{
+	float:left;
+	margin-left:0;
+}
+
+.login-area .username-area{
+	float:left;
+
+}
+.login-area .password-area{
+	float:left;
+	overflow:hidden;
+	margin-right:15px;
+}
+.password-area:hover{
+	color:gray;
+}
+
+.login-area .submit-area{
+	overflow:hidden;
+}
+
+.login-area a{
+	color:white;
+	font-size:12px;
+	text-decoration:none;
+}
+
+.username-area .submit-area{
+	margin:3px;
+	display:inline-block;
+	overflow:hidden;
+	margin-left:2px;
+	color:white;
+}
+
+.login-area a:hover{
+	color:gray;
+} 
+
+.submit-area input{
+	background-color:black;
+	cursor:pointer;
+	color:white;
+	margin-top:20px;
+	font-size:12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
