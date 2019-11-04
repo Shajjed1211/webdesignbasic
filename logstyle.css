@@ -6,14 +6,14 @@ body{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size:cover;
-	font-family: 'Montserrat', sans-serif;
+	
 
 }
 
 .login{
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0,0,0,0.5);
 	width:100%;
-	margin-top:5px;
+	margin-top:20px;
 }
 
 .contain{
@@ -21,7 +21,7 @@ body{
 	margin:auto;
 }	 
 .logintext{
-	padding:10px 0;
+	
 	width:30%;
 	float:left;
 }
@@ -45,6 +45,7 @@ body{
 .login-area label,
 .login-area input{
 	display:block;
+	font-size:12px
 }	
 
 .login-area input[type="checkbox"]{
@@ -54,12 +55,13 @@ body{
 
 .login-area .username-area{
 	float:left;
+	margin-right:10px
 
 }
 .login-area .password-area{
 	float:left;
 	overflow:hidden;
-	margin-right:15px;
+	margin-right:10px;
 }
 .password-area:hover{
 	color:gray;
@@ -91,9 +93,25 @@ body{
 	background-color:black;
 	cursor:pointer;
 	color:white;
-	margin-top:20px;
-	font-size:12px;
+	margin-top:14px;
+	font-size:13px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
