@@ -7,13 +7,13 @@ body{
 	background-repeat: no-repeat;
 	background-size:cover;
 	
-
 }
 
 .login{
 	background-color: rgba(0,0,0,0.5);
 	width:100%;
-	margin-top:20px;
+	height:100px;
+	margin-top:30px;
 }
 
 .contain{
@@ -22,16 +22,16 @@ body{
 }	 
 .logintext{
 	
-	width:30%;
+	width:45%;
 	float:left;
 }
 
-.logintext h3:hover{
+.logintext h2:hover{
 	color:gray;
 }
 
 .login-area{
-	width:70%;
+	width:55%;
 	overflow:hidden;	
 }
 .username-area:hover{
@@ -96,8 +96,58 @@ body{
 	margin-top:14px;
 	font-size:13px;
 }
+.singin-body{
+	float:right;
+	margin-right:2%;
+	margin-top:10%;
+	background-color: rgba(0,0,0,0.7);
 
+}
+.signin{
+	overflow:hidden;
+	
+}
+.signin h1{
+	text-align:center;
+}
 
+.signin hr{
+	border:1px solid white;
+}
+
+.firstlast{
+	overflow:hidden;
+	display:block;
+	
+}
+.firstlast input{
+	margin-top:20px;
+	width:220px;
+	height:25px;
+}
+
+.user input{
+	display:block;
+	margin-top:20px;
+	width:220px;
+	height:25px;
+}
+
+.email input{
+	display:block;
+	margin-top:20px;
+	width:220px;
+	height:25px;
+}
+
+.signup input{
+	display:block;
+	margin-top:20px;
+	height:25px;
+	width:70px;
+	cursor:pointer;
+	
+}
 
 
 
